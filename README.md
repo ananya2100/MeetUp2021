@@ -1,5 +1,5 @@
 # Meet Up
-A basic video call implementation using WebRTC, Socket.io and Node.js. 
+A basic video call implementation to connect people together from all over the world. 
 
 
 # Features
