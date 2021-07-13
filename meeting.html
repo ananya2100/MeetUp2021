@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Meet Up</title>
+    <link rel="icon" href="images/favicon.ico">
+    <script src='https://meet.jit.si/external_api.js'></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Signika:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <img src="images/favicon.ico" alt="favicon">
+            <span class="ml-3 text-xl">MEET UP</span>
+          </a>
+        </div>
+    </header>
+    <section class="text-gray-600 body-font">
+        <div id="jitsi-container" class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+        </div>
+        <div class="flex justify-center">
+            <button id="start" class="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Start</button>
+            <a href="index.html"><button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Go back to homepage</button></a>
+        </div>
+        
+      </section>
+      
+    <script src="server.js"></script>
+</body>
+</html>
